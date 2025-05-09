@@ -9,6 +9,7 @@ import Navbar from './components/Navbar';
 import Timeline from './pages/Timeline';
 import PopeDetails from './pages/PopeDetails';
 import Home from './pages/Home';
+import Biographies from './components/Biographies';
 
 // Create theme
 const theme = createTheme({
@@ -48,6 +49,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/timeline" element={<Timeline />} />
+              <Route path="/biographies" element={<Biographies />} />
               <Route path="/popes/:id" element={<PopeDetails />} />
             </Routes>
           </Box>

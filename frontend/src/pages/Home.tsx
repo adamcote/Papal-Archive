@@ -76,7 +76,7 @@ const Home: React.FC = () => {
               </Typography>
               <Button
                 component={RouterLink}
-                to="/popes"
+                to="/biographies"
                 variant="contained"
                 color="primary"
               >

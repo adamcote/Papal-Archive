@@ -10,6 +10,7 @@ import {
 } from '@mui/material';
 import HistoryIcon from '@mui/icons-material/History';
 import TimelineIcon from '@mui/icons-material/Timeline';
+import MenuBookIcon from '@mui/icons-material/MenuBook';
 
 const Navbar: React.FC = () => {
   return (
@@ -31,6 +32,15 @@ const Navbar: React.FC = () => {
             Papal Archive
           </Typography>
           <Box>
+            <Button
+              color="inherit"
+              component={RouterLink}
+              to="/biographies"
+              startIcon={<MenuBookIcon />}
+              sx={{ mr: 2 }}
+            >
+              Biographies
+            </Button>
             <Button
               color="inherit"
               component={RouterLink}
