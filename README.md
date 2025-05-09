@@ -9,9 +9,10 @@ A comprehensive web application for exploring papal history, from the early Chur
 - Minimal design implementation
 - Frontend-backend connection
 - Database setup and configuration
+- Basic biography implementation for first nine popes
 
 ### What's Not Working Yet
-- Pope biographies tab (under development)
+- Pope biographies tab, biographies are not fully incorporated (under development)
 - Papal timeline (currently shows empty graph)
 - Search functionality
 - User authentication
